@@ -15,7 +15,14 @@ def linear_search_index(A, x):
     -1
     """
     # YOUR CODE HERE
-    # DON'T CHANGE ANYTHING ABOVE      
+    # DON'T CHANGE ANYTHING ABOVE 
+    for i in range(len(A)):
+        if A[i] == x:
+            return i
+    return -1
+
+
+
 
 
 def binary_search_count(A, x):
@@ -35,20 +42,21 @@ def binary_search_count(A, x):
     >>> binary_search_count([1, 3, 4, 5, 6, 6, 7], 5)
     (True, 1)
     """
-    # YOUR CODE HERE
     # DON'T CHANGE ANYTHING ABOVE 
     # Initialize the search to cover entire list
     low = 0
     high = len(A) - 1 
+    counter = 0
     while low <= high:
+        counter += 1
         midpoint = (low + high) // 2
         guess = A[midpoint]
         if guess == x:
-            return True
+            return True, counter
         elif guess > x:
             high = midpoint - 1 
         else:
             low = midpoint + 1 
-    return False
+    return False, counter
 
  

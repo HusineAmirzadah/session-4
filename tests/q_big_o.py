@@ -5,7 +5,7 @@ test = {
     {
       'cases': [
         {
-          'answer': 'cbc9f464f9b6cbdc109d587964eb470f',
+          'answer': 'n times',
           'choices': [
             'n times',
             '2n times',
@@ -13,7 +13,7 @@ test = {
             'log(n) times'
           ],
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'question': r"""
           How many times will Python print 'Hello!'?:
           (n is a positive integer number)
@@ -23,7 +23,7 @@ test = {
           """
         },
         {
-          'answer': '04a1c639522d71ce6baa58175b5adc1b',
+          'answer': 'n**2 times',
           'choices': [
             'n times',
             '2n times',
@@ -31,7 +31,7 @@ test = {
             'log(n) times'
           ],
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'question': r"""
           How many times will Python print 'Hello!'?:
           (n is a positive integer number)
@@ -42,7 +42,7 @@ test = {
           """
         },
         {
-          'answer': 'ca491d7869cf35180f6740e9e34144b1',
+          'answer': '2n times',
           'choices': [
             'n times',
             '2n times',
@@ -50,7 +50,7 @@ test = {
             'log(n) times'
           ],
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'question': r"""
           How many times will Python print 'Hello!'?:
           (n is a positive integer number)
@@ -61,7 +61,7 @@ test = {
           """
         },
         {
-          'answer': 'b08739e9405a1bb8b6ee9b8f53a2e906',
+          'answer': 'log(n) times',
           'choices': [
             'n times',
             '2n times',
@@ -69,7 +69,7 @@ test = {
             'log(n) times'
           ],
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'question': r"""
           How many times will Python print 'Hello!'?:
           (n is a positive integer number)
